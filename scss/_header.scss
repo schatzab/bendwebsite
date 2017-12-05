@@ -1,0 +1,44 @@
+/* == top most bar == */
+.top_bar { 
+	color: $brightBlue;
+	width: 100%; 
+	min-height: 4em; 	
+	position: fixed;
+	top: 0px;
+    right: 0px;
+	text-align: right;
+	z-index: 500;
+	margin: 0;
+	padding: 0;
+	font-size: 90%;
+  	background: rgb(255, 255, 255);
+  	background: rgba(255, 255, 255, 0.8);
+}
+.top_bar_inner { padding: 0.5em 2em 0 0; }
+.top_bar_inner a { font-size: 90%; color: $brightBlue; padding-left: 2em; cursor: pointer; font-weight: normal; }
+.top_bar_inner a:hover { color: $primaryBlue; }
+
+
+.header_left { float: left; width: 50%; }
+.header_left h2 { color: $white; }
+
+.header_right { float: left; margin-top: 2em; position: relative; }
+
+.head_text {
+	font-family: 'Leckerli One', cursive;
+	font-size: 280%;
+	padding-bottom: 0.5em;
+	color: $white;
+}
+.head_text_sp {
+	font-family: 'Leckerli One', cursive;
+	font-size: 180%;
+	font-weight: normal;
+	padding: 0.5em 0 0.5em 1em;
+	color: $white;
+}
+.head_text h2 { font-size: 150%; }
+.head_img2 {
+	margin-left: 10em;
+}
+
